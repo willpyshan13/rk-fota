@@ -1,0 +1,108 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme.Custom.Holo.Dialog" parent="android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--
+        <item name="android:windowMinWidthMajor">400dip</item>
+        <item name="android:windowMinWidthMinor">400dip</item>
+        -->
+    </style>
+
+    <style name="myProgressBarStyleLarge">
+
+　　        <item name="android:indeterminateDrawable">@drawable/search_progress_drawable</item>
+
+　　        <item name="android:minWidth">72dip</item>
+
+　　        <item name="android:maxWidth">72dip</item>
+
+　　        <item name="android:minHeight">72dip</item>
+
+　　        <item name="android:maxHeight">72dip</item>
+        <item name="android:background">@drawable/update_icon</item>
+        <item name="android:indeterminateDuration">2300</item>
+    </style>
+
+    <style name="searchProgressBarStyleLarge">
+
+　　        <item name="android:indeterminateDrawable">@drawable/custom_searching_icon</item>
+
+　　        <item name="android:minWidth">32dip</item>
+
+　　        <item name="android:maxWidth">32dip</item>
+
+　　        <item name="android:minHeight">32dip</item>
+
+　　        <item name="android:maxHeight">32dip</item>
+        <item name="android:indeterminateDuration">2300</item>
+    </style>
+
+    <!--
+    <style name="actionbar_def_style" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/action_bar_backgroud</item>
+    </style>
+    -->
+    <style name="actionbar_def_style" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@null</item>
+        <item name="android:textSize">32dip</item>
+    </style>
+
+    <style name="SettingsActivityTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/actionbar_def_style</item>
+        <item name="android:windowBackground">@drawable/upgrade_main_bg</item>
+    </style>
+
+    <!-- ScaleScreen Activity -->
+    <style name="SettingsActivityTheme.OTA" parent="SettingsActivityTheme">
+        <item name="android:actionBarStyle">@style/actionbar.OTA</item>
+    </style>
+
+    <style name="actionbar.OTA" parent="actionbar_def_style">
+        <item name="android:icon">@drawable/back</item>
+    </style>
+
+    <style name="Theme.NewFonts.Holo.Dialog" parent="@android:Theme.Holo.Dialog">
+    </style>
+
+    <style name="Theme.NewFonts.Holo.NoActionBar.Fullscreen" parent="@android:Theme.Holo.NoActionBar.Fullscreen">
+    </style>
+      <style name="Theme.NewFonts.Holo.Light.NoActionBar.Fullscreen" parent="@android:Theme.Holo.Light.NoActionBar.Fullscreen">
+    </style>
+    <style name="customDialog_Button">
+        <item name="android:layout_width">203dip</item>
+        <item name="android:layout_height">64dip</item>
+        <item name="android:background">@drawable/upgrade_ok_btn_selector</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textSize">25dip</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="Theme_NewFonts_Holo_Light_Dialog_Notitle" parent="@android:Theme.Holo.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

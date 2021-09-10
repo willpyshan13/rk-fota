@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/ftp4j-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpcore-4.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/org.apache.http.legacy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpclient-4.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

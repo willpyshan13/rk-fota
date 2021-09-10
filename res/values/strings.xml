@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">System Update</string>
+    <!-- changed -->
+    <string name="permlab_showUI">Show UI for firmware update.</string>
+    <string name="permdesc_shwoUI">Show UI for firmware update.</string>
+    <!-- Firmware updating dialog strings -->
+    <string name="update">Updating</string>
+    <string name="updating_title">Firmware Updating</string>
+    <string name="updating_message_formate">A update package file is found : \'%1$s\'. Would you like to install the package?</string>
+    <string name="updating_button_install">Install</string>
+    <string name="updating_button_cancel">Cancel</string>
+    <string name="updating_prompt">checking the package! The Device is going to reboot...</string>
+    <string name="updating_prompt_sdcard">Do NOT remove SD card from the device!</string>
+    <!-- changed -->
+    <!-- Invalid Firmware Image Activity (IFIA) -->
+    <string name="IFIA_title">Invalid firmware image</string>
+    <string name="IFIA_msg">Found an invalid firmware image file \'%1$s\'. Would you like to delete it?</string>
+    <!-- changed -->
+    <string name="IFIA_btn_yes">Yes</string>
+    <string name="IFIA_btn_no">No</string>
+    <!-- No Image Activity (NIA) -->
+    <string name="NIA_title">No update image file</string>
+    <string name="NIA_msg_format">There is no firmware image file in directory \'%1$s\' and \'%2$s\'!</string>
+    <string name="NIA_btn_ok">OK</string>
+    <string name="ask_delete_package">Do you want to delete the file? If not,the system may propose this update again.</string>
+    <string name="update_success">Congratulation upgrade succeed!</string>
+    <!-- changed -->
+    <string name="update_failed">Firmware update failed!</string>
+    <!-- changed -->
+    <string name="state_idle">State: Idle</string>
+    <string name="downloading">Downloading</string>
+    <string name="ota_update">Find a OTA upgrade package! do you want to update? upgrade package version:</string>
+    <string name="ota_package_size">, size:</string>
+    <string name="start">Start</string>
+    <string name="starting">Starting</string>
+    <string name="retry">Retry</string>
+    <string name="pause">Pause</string>
+    <string name="stoping">Stoping</string>
+    <string name="cancel_update">Cancel Download</string>
+    <!-- changed -->
+    <string name="auto_check">Auto check update</string>
+    <string name="check_now">Check now</string>
+    <string name="check_fullupgrade">Full Upgrade</string>
+    <string name="pb_title_downloading">Upgrade package is being downloaded</string>
+    <string name="pb_title_pause">Upgrade package is being paused</string>
+    <string name="remain_time">Remaining Time:</string>
+
+    <!-- add by sjf -->
+
+    <string name="upgrade_search_title">Software Update</string>
+    <string name="check_update">check update</string>
+    <string name="last_version">version: <xliff:g id="version_name">%1$s</xliff:g></string>
+    <string name="network_error">Network error, please check the network!</string>
+    <string name="settings">Settings</string>
+    <string name="error">error</string>
+    <string name="download_updating">DownLoading updates,...</string>
+    <string name="check_updating">Finding updates,please wait...</string>
+    <string name="checked">Find the update</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok"> OK</string>
+    <string name="no_update">The latest updates have already been installed .</string>
+    <string name="update_log">Update Log:</string>
+
+    <string name="product_model">Product Model:</string>
+    <string name="current_version">Current Version:</string>
+  <string name="error_display">Network error, please try again later!</string>
+</resources>

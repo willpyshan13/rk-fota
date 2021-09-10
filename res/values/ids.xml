@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="RelativeLayout1">false</item>
+    <item type="id" name="imageView3">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="txt_version">false</item>
+    <item type="id" name="txt_product">false</item>
+    <item type="id" name="textView5">false</item>
+    <item type="id" name="btn_check_now">false</item>
+    <item type="id" name="textView4">false</item>
+    <item type="id" name="linearLayout1">false</item>
+    <item type="id" name="imageView2">false</item>
+</resources>

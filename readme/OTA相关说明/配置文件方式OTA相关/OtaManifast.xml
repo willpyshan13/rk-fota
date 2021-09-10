@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OtaManifast>
+	<product name="Q-BOX02">
+		<fwtype name="0">
+			<version name="1.1.1">
+       <path>packages/Q-BOX02/fwtype0/1.1.1/update.zip</path>
+       <version_id>8</version_id>
+       <aim_version>1.1.4</aim_version>
+       <content>
+             1.隐藏了不需要的apk
+             2.优化了以太网连接策略。
+             ...
+       </content>
+			</version>
+		</fwtype>
+	</product>
+</OtaManifast>
+
+
+
+
+
+
+

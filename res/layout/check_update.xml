@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/upgrade_main_bg" >
+
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/back"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="542dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="18dp"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="@string/update"
+        android:textColor="#FFFFFFFF"
+        android:textSize="32dp" />
+
+    <LinearLayout
+        android:layout_width="520dip"
+        android:layout_height="273dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/upgrade_search_panel_bg"
+        android:orientation="vertical"
+        android:paddingBottom="28dip"
+        android:paddingLeft="14dip"
+        android:paddingRight="14dip"
+        android:paddingTop="34dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="48dip"
+            android:paddingBottom="2dip"
+            android:text="@string/upgrade_search_title"
+            android:textColor="@android:color/white"
+            android:textSize="28dip" />
+
+        <LinearLayout
+            android:id="@+id/checking_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    style="@style/searchProgressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_updating"
+                    android:textSize="26dip" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/cancel_checking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="@string/cancel"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_end_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/check_end_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="25dip"
+                    android:background="@drawable/checked_icon"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/check_end_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dip"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/network_error"
+                    android:textSize="26dip" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/check_end_btn"
+                style="@style/customDialog_Button"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/ok" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

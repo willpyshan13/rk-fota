@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="108dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="78dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/checked"
+        android:textColor="@android:color/white"
+        android:textSize="28dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:background="@drawable/upgrade_cloud_icon"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/update_version"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:layout_marginLeft="5dip"
+            android:gravity="center"
+            android:textColor="#00d2ff"
+            android:textSize="28dip" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="233dip"
+        android:layout_height="92dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dip"
+        android:background="@drawable/upgrade_btn"
+        android:gravity="center"
+        android:text="@string/update"
+        android:textColor="@android:color/white"
+        android:textSize="28dip" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/upgrade_main_bg" >
+
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/back"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="542dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="18dp"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="@string/update"
+        android:textColor="#FFFFFFFF"
+        android:textSize="32dp" />
+
+    <LinearLayout
+        android:layout_width="1090dip"
+        android:layout_height="474dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/upgrade_panel_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/page_upgrade_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/description_layout"
+                android:layout_width="0dip"
+                android:layout_height="374dip"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/update_content_selector"
+                 >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="28dp"
+                    android:text="@string/update_log"
+                    android:textColor="@android:color/white"
+                    android:textSize="28dip" />
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="420dip"
+                    android:layout_height="225dip"
+                    android:layout_alignLeft="@+id/title"
+                    android:layout_below="@+id/title"
+                    android:layout_marginTop="40dp"
+                    android:focusable="true"
+                    android:scrollbars="none"
+                    android:textColor="@android:color/white"
+                    android:lineSpacingExtra="10dip"
+                    android:textSize="20dip" />
+            </RelativeLayout>
+
+            <include
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                layout="@layout/upload"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/page_downalod"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/download"
+            android:focusable="false"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>
